@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RecipeMaker2._0.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeMaker2.0.Data\RecipeMaker2.0.Data.csproj" />
+    <ProjectReference Include="..\RecipeMaker2.0.DTO\RecipeMaker2.0.DTO.csproj" />
+    <ProjectReference Include="..\RecipeMaker2.0.Interfaces\RecipeMaker2.0.Interfaces.csproj" />
+    <ProjectReference Include="..\RecipeMaker2.0.Model\RecipeMaker2.0.Model.csproj" />
+    <ProjectReference Include="..\RecipeMaker2.0.Services\RecipeMaker2.0.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RecipeMaker2._0.Data</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeMaker2.0.Interfaces\RecipeMaker2.0.Interfaces.csproj" />
+    <ProjectReference Include="..\RecipeMaker2.0.Model\RecipeMaker2.0.Model.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RecipeMaker2._0.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeMaker2.0.Interfaces\RecipeMaker2.0.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
